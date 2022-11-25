@@ -1,0 +1,1 @@
+web: sh setup.sh && streamlit run simulation_credit_api.py
