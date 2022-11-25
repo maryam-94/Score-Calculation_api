@@ -4,9 +4,9 @@ import pickle
 import streamlit as st
 from sklearn.preprocessing import MinMaxScaler
 
-# from imblearn.pipeline import Pipeline
-# from imblearn.over_sampling import SMOTE
-# from imblearn.under_sampling import RandomUnderSampler
+from imblearn.pipeline import Pipeline
+from imblearn.over_sampling import SMOTE
+from imblearn.under_sampling import RandomUnderSampler
 
 # model_path = r'ada_fbeta_joblib.pickle'
 #
